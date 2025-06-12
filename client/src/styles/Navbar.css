@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    background-color: #3b82f6;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .nav-left h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .nav-right {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+  
